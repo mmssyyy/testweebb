@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_FULL_USER);
 
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://www.naver.com");
+        webView.loadUrl("file://android_asset/index.html");
 
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
